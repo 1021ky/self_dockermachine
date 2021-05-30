@@ -1,10 +1,7 @@
-vagrant@ubuntu-focal:~$ cat /etc/docker/daemon.json
-
 {
      "debug": true,
      "hosts": ["tcp://0.0.0.0:2375", "tcp://0.0.0.0:2376"],
      "tls": false
 }
-vagrant@ubuntu-focal:~$
 
 
