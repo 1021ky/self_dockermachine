@@ -31,13 +31,13 @@ docker for mac/docker for windowsよりもより詳細に
 
 ## 参考にしたもの
 
-https://docs.docker.com/engine/install/linux-postinstall/#configuring-remote-access-with-systemd-unit-file
+[Configuring remote access with systemd unit file
+](https://docs.docker.com/engine/install/linux-postinstall/#configuring-remote-access-with-systemd-unit-file)
 
 dockerはデフォルトではunixソケット通信しか許可していないのですが、
 tcp通信をするときはdocker daemonのオプションを指定すれば良いことがわかりました。
 
-Vagrant + VirtualBoxで仮想環境側のポートをあける
-https://qiita.com/kkam0907/items/4a345cd5e834969d3859
+[Vagrant + VirtualBoxで仮想環境側のポートをあける](https://qiita.com/kkam0907/items/4a345cd5e834969d3859)
 
 ゲストマシン内では`telnet localhost 2375`でつながるのにホストマシンからは接続できないってなったとき、参考になりました。ファイアウォールが邪魔していた。
 
